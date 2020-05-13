@@ -1,0 +1,31 @@
+{
+    "credentials": {
+        "username": "",
+        "password": ""
+    },
+
+    "urls": {
+        "receptions": "https://groundsegment.space.noa.gr/api/receptions/",
+        "products": "https://groundsegment.space.noa.gr/api/products/",
+        "download": "https://groundsegment.space.noa.gr/api/download/"
+    },
+
+    "satellites": {
+        "NOAA-20": 43013,
+        "SNPP": 37849,
+        "Terra": 25994,
+        "Aqua": 27424,
+        "FY-3B": 37214,
+        "NOAA-19": 33591,
+        "Metop-A": 29499,
+        "Metop-B": 38771
+    },
+    
+    "instruments": {
+        "VIIRS": [43013, 37849],
+        "MODIS": [25994, 27424],
+        "AIRS": [27424],
+        "MERSI": [37214],
+        "AVHRR": [33591, 29499, 38771]
+    }
+}
