@@ -11,9 +11,7 @@ def _load_configuration():
         'password': config['credentials']['password'],
         'satellites': config['satellites'],
         'instruments': config['instruments'],
-        'receptions_url': config['urls']['receptions'],
-        'products_url': config['urls']['products'],
-        'download_url': config['urls']['download'],
+        'receptions_url': config['urls']['receptions']
     }
 
     return configuration
